@@ -1,0 +1,19 @@
+Description: fix POD formatting
+Origin: vendor
+Forwarded: https://rt.cpan.org/Public/Bug/Display.html?id=95251
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2012-06-30
+
+--- a/lib/Sort/Key/Types.pm
++++ b/lib/Sort/Key/Types.pm
+@@ -154,7 +154,9 @@
+ 
+ __END__
+ 
+-=head1 Sort::Key::Types - handle Sort::Key data types
++=head1 NAME
++
++Sort::Key::Types - handle Sort::Key data types
+ 
+ =head1 SYNOPSIS
+ 

@@ -1,0 +1,15 @@
+Description: fix spelling issues reported by linian
+Author: Florian Schlichting <fschlich@zedat.fu-berlin.de>
+Forwarded: https://rt.cpan.org/Public/Bug/Display.html?id=74221
+
+--- a/lib/Sort/Key.pm
++++ b/lib/Sort/Key.pm
+@@ -313,7 +313,7 @@
+ L<Sort::Key::IPv4>, L<Sort::Key::DateTime> and L<Sort::Key::OID>
+ modules add support for additional datatypes to Sort::Key.
+ 
+-L<Sort::Key::External> allows to sort huge lists that do not fit in
++L<Sort::Key::External> allows one to sort huge lists that do not fit in
+ the available memory.
+ 
+ Other interesting Perl sorting modules are L<Sort::Maker>,
